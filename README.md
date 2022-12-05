@@ -2,5 +2,4 @@
 
 KISS homebridge backup script
 
-access.json is needed
-$(pwd)/backus is needed
+access.json and $(pwd)/backus are needed
