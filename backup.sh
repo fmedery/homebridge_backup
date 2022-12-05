@@ -3,7 +3,7 @@
 set -e
 
 URI_HOST="http://homebridge.local:8581"
-BACKUP_FILE_PATH="$(pwd)"
+BACKUP_FILE_PATH="$(pwd)/backups"
 
 
 BACKUP_FILE_NAME="backup-$(date '+%Y-%m-%d').tar.gz"
