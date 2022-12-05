@@ -16,5 +16,5 @@ ACCESS_TOKEN=$(curl --silent --location \
 # Download Backup
 curl --silent --location \
     --request GET "${URI_HOST}"'/api/backup/download' \
-  -H "Authorization: bearer $ACCESS_TOKEN" \
-  -o ${BACKUP_FILE_PATH}/${BACKUP_FILE_NAME}.tgz
+    -H "Authorization: bearer $ACCESS_TOKEN" \
+    -o ${BACKUP_FILE_PATH}/${BACKUP_FILE_NAME}.tgz
